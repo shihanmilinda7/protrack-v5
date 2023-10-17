@@ -71,7 +71,7 @@ export default function Project() {
     if (userRole != "User") {
       getAllProjectDetails();
     } else {
-      getAssignedProjectDetails();
+      // getAssignedProjectDetails();
     }
   }, [currentPage]);
 

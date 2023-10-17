@@ -226,6 +226,17 @@ const StaffAddNew = (params: ParamTypes) => {
                 progress: undefined,
                 theme: "colored",
               });
+
+              setStaffname("");
+              setUsername("");
+              setContracttype(new Set([]));
+              setDesignation(new Set([]));
+              setNic("");
+              setPassword("");
+              setRole(new Set([]));
+              setConfirmpassword("");
+              setCountry("LK");
+              setContactno("");
             }
           }
         }

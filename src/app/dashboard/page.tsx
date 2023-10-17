@@ -71,7 +71,7 @@ export default function Dashboard() {
   useEffect(() => {
     getStaffDetails();
     getProjectDetails();
-    getAssignedProjectDetails();
+    // getAssignedProjectDetails();
   }, [staffid]);
   if (status === "loading") {
     return (

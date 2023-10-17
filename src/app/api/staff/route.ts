@@ -42,9 +42,7 @@ export async function POST(request: Request) {
     country,
   } = await request.json();
   const hashedPassword = await bcrypt.hash(password, 10);
-  console.log("hashedPassword", hashedPassword);
   let message: string = "SUCCESS";
-  console.log("designation", designation);
   try {
     await newStaff(
       staffname,
